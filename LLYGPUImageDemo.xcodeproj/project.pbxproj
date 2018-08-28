@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A606D213533FB00869D60 /* AppDelegate.m */; };
+		0A7A6071213533FB00869D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6070213533FB00869D60 /* ViewController.m */; };
+		0A7A6074213533FB00869D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6072213533FB00869D60 /* Main.storyboard */; };
+		0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6075213533FC00869D60 /* Assets.xcassets */; };
+		0A7A6079213533FC00869D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */; };
+		0A7A607C213533FC00869D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A607B213533FC00869D60 /* main.m */; };
+		0A7A6086213533FC00869D60 /* LLYGPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6085213533FC00869D60 /* LLYGPUImageDemoTests.m */; };
+		0A7A6091213533FC00869D60 /* LLYGPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A7A6082213533FC00869D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7A6061213533FB00869D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7A6068213533FB00869D60;
+			remoteInfo = LLYGPUImageDemo;
+		};
+		0A7A608D213533FC00869D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A7A6061213533FB00869D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A7A6068213533FB00869D60;
+			remoteInfo = LLYGPUImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7A6069213533FB00869D60 /* LLYGPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYGPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7A606C213533FB00869D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A7A606D213533FB00869D60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A7A606F213533FB00869D60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A7A6070213533FB00869D60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A7A6073213533FB00869D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7A6075213533FC00869D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7A6078213533FC00869D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7A607A213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7A607B213533FC00869D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A7A6081213533FC00869D60 /* LLYGPUImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYGPUImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7A6085213533FC00869D60 /* LLYGPUImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageDemoTests.m; sourceTree = "<group>"; };
+		0A7A6087213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7A608C213533FC00869D60 /* LLYGPUImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYGPUImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageDemoUITests.m; sourceTree = "<group>"; };
+		0A7A6092213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7A6066213533FB00869D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A607E213533FC00869D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A6089213533FC00869D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7A6060213533FB00869D60 = {
+			isa = PBXGroup;
+			children = (
+				0A7A606B213533FB00869D60 /* LLYGPUImageDemo */,
+				0A7A6084213533FC00869D60 /* LLYGPUImageDemoTests */,
+				0A7A608F213533FC00869D60 /* LLYGPUImageDemoUITests */,
+				0A7A606A213533FB00869D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7A606A213533FB00869D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A6069213533FB00869D60 /* LLYGPUImageDemo.app */,
+				0A7A6081213533FC00869D60 /* LLYGPUImageDemoTests.xctest */,
+				0A7A608C213533FC00869D60 /* LLYGPUImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7A606B213533FB00869D60 /* LLYGPUImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A606C213533FB00869D60 /* AppDelegate.h */,
+				0A7A606D213533FB00869D60 /* AppDelegate.m */,
+				0A7A606F213533FB00869D60 /* ViewController.h */,
+				0A7A6070213533FB00869D60 /* ViewController.m */,
+				0A7A6072213533FB00869D60 /* Main.storyboard */,
+				0A7A6075213533FC00869D60 /* Assets.xcassets */,
+				0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */,
+				0A7A607A213533FC00869D60 /* Info.plist */,
+				0A7A607B213533FC00869D60 /* main.m */,
+			);
+			path = LLYGPUImageDemo;
+			sourceTree = "<group>";
+		};
+		0A7A6084213533FC00869D60 /* LLYGPUImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A6085213533FC00869D60 /* LLYGPUImageDemoTests.m */,
+				0A7A6087213533FC00869D60 /* Info.plist */,
+			);
+			path = LLYGPUImageDemoTests;
+			sourceTree = "<group>";
+		};
+		0A7A608F213533FC00869D60 /* LLYGPUImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */,
+				0A7A6092213533FC00869D60 /* Info.plist */,
+			);
+			path = LLYGPUImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7A6068213533FB00869D60 /* LLYGPUImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7A6095213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemo" */;
+			buildPhases = (
+				0A7A6065213533FB00869D60 /* Sources */,
+				0A7A6066213533FB00869D60 /* Frameworks */,
+				0A7A6067213533FB00869D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLYGPUImageDemo;
+			productName = LLYGPUImageDemo;
+			productReference = 0A7A6069213533FB00869D60 /* LLYGPUImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A7A6080213533FC00869D60 /* LLYGPUImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7A6098213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemoTests" */;
+			buildPhases = (
+				0A7A607D213533FC00869D60 /* Sources */,
+				0A7A607E213533FC00869D60 /* Frameworks */,
+				0A7A607F213533FC00869D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7A6083213533FC00869D60 /* PBXTargetDependency */,
+			);
+			name = LLYGPUImageDemoTests;
+			productName = LLYGPUImageDemoTests;
+			productReference = 0A7A6081213533FC00869D60 /* LLYGPUImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A7A608B213533FC00869D60 /* LLYGPUImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7A609B213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemoUITests" */;
+			buildPhases = (
+				0A7A6088213533FC00869D60 /* Sources */,
+				0A7A6089213533FC00869D60 /* Frameworks */,
+				0A7A608A213533FC00869D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7A608E213533FC00869D60 /* PBXTargetDependency */,
+			);
+			name = LLYGPUImageDemoUITests;
+			productName = LLYGPUImageDemoUITests;
+			productReference = 0A7A608C213533FC00869D60 /* LLYGPUImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7A6061213533FB00869D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lly;
+				TargetAttributes = {
+					0A7A6068213533FB00869D60 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0A7A6080213533FC00869D60 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A7A6068213533FB00869D60;
+					};
+					0A7A608B213533FC00869D60 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0A7A6068213533FB00869D60;
+					};
+				};
+			};
+			buildConfigurationList = 0A7A6064213533FB00869D60 /* Build configuration list for PBXProject "LLYGPUImageDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A7A6060213533FB00869D60;
+			productRefGroup = 0A7A606A213533FB00869D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7A6068213533FB00869D60 /* LLYGPUImageDemo */,
+				0A7A6080213533FC00869D60 /* LLYGPUImageDemoTests */,
+				0A7A608B213533FC00869D60 /* LLYGPUImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7A6067213533FB00869D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7A6079213533FC00869D60 /* LaunchScreen.storyboard in Resources */,
+				0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */,
+				0A7A6074213533FB00869D60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A607F213533FC00869D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A608A213533FC00869D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7A6065213533FB00869D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7A6071213533FB00869D60 /* ViewController.m in Sources */,
+				0A7A607C213533FC00869D60 /* main.m in Sources */,
+				0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A607D213533FC00869D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7A6086213533FC00869D60 /* LLYGPUImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7A6088213533FC00869D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7A6091213533FC00869D60 /* LLYGPUImageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7A6083213533FC00869D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7A6068213533FB00869D60 /* LLYGPUImageDemo */;
+			targetProxy = 0A7A6082213533FC00869D60 /* PBXContainerItemProxy */;
+		};
+		0A7A608E213533FC00869D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A7A6068213533FB00869D60 /* LLYGPUImageDemo */;
+			targetProxy = 0A7A608D213533FC00869D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A7A6072213533FB00869D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7A6073213533FB00869D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7A6078213533FC00869D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7A6093213533FC00869D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A7A6094213533FC00869D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7A6096213533FC00869D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A7A6097213533FC00869D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A7A6099213533FC00869D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYGPUImageDemo.app/LLYGPUImageDemo";
+			};
+			name = Debug;
+		};
+		0A7A609A213533FC00869D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYGPUImageDemo.app/LLYGPUImageDemo";
+			};
+			name = Release;
+		};
+		0A7A609C213533FC00869D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLYGPUImageDemo;
+			};
+			name = Debug;
+		};
+		0A7A609D213533FC00869D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PW2BL84NY9;
+				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLYGPUImageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7A6064213533FB00869D60 /* Build configuration list for PBXProject "LLYGPUImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7A6093213533FC00869D60 /* Debug */,
+				0A7A6094213533FC00869D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7A6095213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7A6096213533FC00869D60 /* Debug */,
+				0A7A6097213533FC00869D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7A6098213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7A6099213533FC00869D60 /* Debug */,
+				0A7A609A213533FC00869D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7A609B213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7A609C213533FC00869D60 /* Debug */,
+				0A7A609D213533FC00869D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7A6061213533FB00869D60 /* Project object */;
+}
