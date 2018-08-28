@@ -15,6 +15,7 @@
 		0A7A607C213533FC00869D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A607B213533FC00869D60 /* main.m */; };
 		0A7A6086213533FC00869D60 /* LLYGPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6085213533FC00869D60 /* LLYGPUImageDemoTests.m */; };
 		0A7A6091213533FC00869D60 /* LLYGPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */; };
+		E64738FDFC85B8F4FB34E1A3 /* libPods-LLYGPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		0A7A608C213533FC00869D60 /* LLYGPUImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYGPUImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageDemoUITests.m; sourceTree = "<group>"; };
 		0A7A6092213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B52B94290CAD003134DBCDF /* Pods-LLYGPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLYGPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A199E0C57CEFFC37ECF5A4 /* Pods-LLYGPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64738FDFC85B8F4FB34E1A3 /* libPods-LLYGPUImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				0A7A6084213533FC00869D60 /* LLYGPUImageDemoTests */,
 				0A7A608F213533FC00869D60 /* LLYGPUImageDemoUITests */,
 				0A7A606A213533FB00869D60 /* Products */,
+				422A280016E33E1F0B50F575 /* Pods */,
+				8AF4C724C8371E298ECDA565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = LLYGPUImageDemoUITests;
 			sourceTree = "<group>";
 		};
+		422A280016E33E1F0B50F575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B52B94290CAD003134DBCDF /* Pods-LLYGPUImageDemo.debug.xcconfig */,
+				83A199E0C57CEFFC37ECF5A4 /* Pods-LLYGPUImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AF4C724C8371E298ECDA565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A7A6095213533FC00869D60 /* Build configuration list for PBXNativeTarget "LLYGPUImageDemo" */;
 			buildPhases = (
+				15B19982707D36DD3F77D153 /* [CP] Check Pods Manifest.lock */,
 				0A7A6065213533FB00869D60 /* Sources */,
 				0A7A6066213533FB00869D60 /* Frameworks */,
 				0A7A6067213533FB00869D60 /* Resources */,
+				A17A9E2D462781283F8E7898 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B19982707D36DD3F77D153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLYGPUImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17A9E2D462781283F8E7898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A7A6065213533FB00869D60 /* Sources */ = {
@@ -431,16 +504,14 @@
 		};
 		0A7A6096213533FC00869D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B52B94290CAD003134DBCDF /* Pods-LLYGPUImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,16 +520,14 @@
 		};
 		0A7A6097213533FC00869D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A199E0C57CEFFC37ECF5A4 /* Pods-LLYGPUImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,11 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -491,11 +556,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,11 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,11 +584,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
