@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LLYRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    LLYRootViewController *vc = [[LLYRootViewController alloc]init];
+    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navC;
+    
     return YES;
 }
 

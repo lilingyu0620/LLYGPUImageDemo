@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LLYRootViewController.h
 //  LLYGPUImageDemo
 //
 //  Created by lly on 2018/8/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LLYRootViewController : UIViewController
 
 @end
-

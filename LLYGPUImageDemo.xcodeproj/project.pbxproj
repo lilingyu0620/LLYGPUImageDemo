@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A606D213533FB00869D60 /* AppDelegate.m */; };
-		0A7A6071213533FB00869D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6070213533FB00869D60 /* ViewController.m */; };
-		0A7A6074213533FB00869D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6072213533FB00869D60 /* Main.storyboard */; };
 		0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6075213533FC00869D60 /* Assets.xcassets */; };
-		0A7A6079213533FC00869D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */; };
 		0A7A607C213533FC00869D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A607B213533FC00869D60 /* main.m */; };
 		0A7A6086213533FC00869D60 /* LLYGPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6085213533FC00869D60 /* LLYGPUImageDemoTests.m */; };
 		0A7A6091213533FC00869D60 /* LLYGPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */; };
+		0A7A60A021354CA600869D60 /* wk.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A609F21354CA600869D60 /* wk.JPG */; };
+		0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A60A22135539600869D60 /* LLYRootViewController.m */; };
+		0A7A60A52135539600869D60 /* LLYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A32135539600869D60 /* LLYRootViewController.xib */; };
+		0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */; };
+		0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */; };
+		0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */; };
 		E64738FDFC85B8F4FB34E1A3 /* libPods-LLYGPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -39,11 +42,7 @@
 		0A7A6069213533FB00869D60 /* LLYGPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYGPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7A606C213533FB00869D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7A606D213533FB00869D60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A7A606F213533FB00869D60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A7A6070213533FB00869D60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0A7A6073213533FB00869D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A7A6075213533FC00869D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A7A6078213533FC00869D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A7A607A213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A7A607B213533FC00869D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A7A6081213533FC00869D60 /* LLYGPUImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYGPUImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +51,15 @@
 		0A7A608C213533FC00869D60 /* LLYGPUImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYGPUImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7A6090213533FC00869D60 /* LLYGPUImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageDemoUITests.m; sourceTree = "<group>"; };
 		0A7A6092213533FC00869D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7A609F21354CA600869D60 /* wk.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wk.JPG; sourceTree = "<group>"; };
+		0A7A60A12135539600869D60 /* LLYRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYRootViewController.h; sourceTree = "<group>"; };
+		0A7A60A22135539600869D60 /* LLYRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYRootViewController.m; sourceTree = "<group>"; };
+		0A7A60A32135539600869D60 /* LLYRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLYRootViewController.xib; sourceTree = "<group>"; };
+		0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LLYLaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYShowImageViewController.h; sourceTree = "<group>"; };
+		0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYShowImageViewController.m; sourceTree = "<group>"; };
+		0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYUseCameraViewController.h; sourceTree = "<group>"; };
+		0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYUseCameraViewController.m; sourceTree = "<group>"; };
 		0B52B94290CAD003134DBCDF /* Pods-LLYGPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLYGPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A199E0C57CEFFC37ECF5A4 /* Pods-LLYGPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,13 +116,15 @@
 		0A7A606B213533FB00869D60 /* LLYGPUImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A8845CF2136782100F921E4 /* modules */,
+				0A7A609E21354C9700869D60 /* resource */,
 				0A7A606C213533FB00869D60 /* AppDelegate.h */,
 				0A7A606D213533FB00869D60 /* AppDelegate.m */,
-				0A7A606F213533FB00869D60 /* ViewController.h */,
-				0A7A6070213533FB00869D60 /* ViewController.m */,
-				0A7A6072213533FB00869D60 /* Main.storyboard */,
+				0A7A60A12135539600869D60 /* LLYRootViewController.h */,
+				0A7A60A22135539600869D60 /* LLYRootViewController.m */,
+				0A7A60A32135539600869D60 /* LLYRootViewController.xib */,
+				0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */,
 				0A7A6075213533FC00869D60 /* Assets.xcassets */,
-				0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */,
 				0A7A607A213533FC00869D60 /* Info.plist */,
 				0A7A607B213533FC00869D60 /* main.m */,
 			);
@@ -137,6 +147,25 @@
 				0A7A6092213533FC00869D60 /* Info.plist */,
 			);
 			path = LLYGPUImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		0A7A609E21354C9700869D60 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A609F21354CA600869D60 /* wk.JPG */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		0A8845CF2136782100F921E4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */,
+				0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */,
+				0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */,
+				0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */,
+			);
+			path = modules;
 			sourceTree = "<group>";
 		};
 		422A280016E33E1F0B50F575 /* Pods */ = {
@@ -261,9 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7A6079213533FC00869D60 /* LaunchScreen.storyboard in Resources */,
 				0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */,
-				0A7A6074213533FB00869D60 /* Main.storyboard in Resources */,
+				0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */,
+				0A7A60A021354CA600869D60 /* wk.JPG in Resources */,
+				0A7A60A52135539600869D60 /* LLYRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,9 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7A6071213533FB00869D60 /* ViewController.m in Sources */,
 				0A7A607C213533FC00869D60 /* main.m in Sources */,
 				0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */,
+				0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */,
+				0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */,
+				0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,25 +403,6 @@
 			targetProxy = 0A7A608D213533FC00869D60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0A7A6072213533FB00869D60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A7A6073213533FB00869D60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0A7A6077213533FC00869D60 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A7A6078213533FC00869D60 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A7A6093213533FC00869D60 /* Debug */ = {
@@ -511,7 +524,10 @@
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,7 +543,10 @@
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,7 +560,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,7 +579,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -570,7 +597,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,7 +615,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYGPUImageDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYGPUImageDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
