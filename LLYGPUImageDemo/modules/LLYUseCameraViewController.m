@@ -30,8 +30,9 @@
     GPUImageSepiaFilter *filter = [[GPUImageSepiaFilter alloc]init];
     [filter addTarget:self.mGPUImageView];
     
-    self.mGPUVideoCamera = [[GPUImageVideoCamera alloc]initWithSessionPreset:AVCaptureSessionPreset640x480 cameraPosition:AVCaptureDevicePositionBack];
+    self.mGPUVideoCamera = [[GPUImageVideoCamera alloc]initWithSessionPreset:AVCaptureSessionPreset640x480 cameraPosition:AVCaptureDevicePositionFront];
     self.mGPUVideoCamera.outputImageOrientation = UIInterfaceOrientationPortrait;
+    self.mGPUVideoCamera.horizontallyMirrorFrontFacingCamera = YES;
     [self.mGPUVideoCamera addTarget:filter];
     
     //开启摄像头

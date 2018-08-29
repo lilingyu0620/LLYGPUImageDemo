@@ -9,6 +9,7 @@
 #import "LLYRootViewController.h"
 #import "LLYShowImageViewController.h"
 #import "LLYUseCameraViewController.h"
+#import "LLYBeautifulFilterViewController.h"
 
 @interface LLYRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -30,7 +31,7 @@
     self.mTableView.estimatedRowHeight = 60;
     self.mTableView.rowHeight = UITableViewAutomaticDimension;
     
-    self.dataSourceArray = [NSMutableArray arrayWithArray:@[@"显示带滤镜的图片",@"开启带滤镜的摄像头"]];
+    self.dataSourceArray = [NSMutableArray arrayWithArray:@[@"显示带滤镜的图片",@"开启带滤镜的摄像头",@"自定义美颜滤镜"]];
     [self.mTableView reloadData];
 }
 
@@ -66,6 +67,12 @@
             
         case 1:{
             LLYUseCameraViewController *vc = [[LLYUseCameraViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        case 2:{
+            LLYBeautifulFilterViewController *vc = [[LLYBeautifulFilterViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

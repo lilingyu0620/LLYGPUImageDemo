@@ -18,6 +18,8 @@
 		0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */; };
 		0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */; };
 		0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */; };
+		0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D92136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m */; };
+		0A8845DD2136969200F921E4 /* LLYBeautifulFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845DC2136969200F921E4 /* LLYBeautifulFilterViewController.m */; };
 		E64738FDFC85B8F4FB34E1A3 /* libPods-LLYGPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,10 @@
 		0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYShowImageViewController.m; sourceTree = "<group>"; };
 		0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYUseCameraViewController.h; sourceTree = "<group>"; };
 		0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYUseCameraViewController.m; sourceTree = "<group>"; };
+		0A8845D82136964B00F921E4 /* LLYGPUImageBeatuifulFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYGPUImageBeatuifulFilter.h; sourceTree = "<group>"; };
+		0A8845D92136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageBeatuifulFilter.m; sourceTree = "<group>"; };
+		0A8845DB2136969200F921E4 /* LLYBeautifulFilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYBeautifulFilterViewController.h; sourceTree = "<group>"; };
+		0A8845DC2136969200F921E4 /* LLYBeautifulFilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYBeautifulFilterViewController.m; sourceTree = "<group>"; };
 		0B52B94290CAD003134DBCDF /* Pods-LLYGPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		480668032993BA44628F9A74 /* libPods-LLYGPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLYGPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A199E0C57CEFFC37ECF5A4 /* Pods-LLYGPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLYGPUImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLYGPUImageDemo/Pods-LLYGPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,12 +166,24 @@
 		0A8845CF2136782100F921E4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				0A8845D72136959100F921E4 /* BeautifulFilter */,
 				0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */,
 				0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */,
 				0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */,
 				0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */,
 			);
 			path = modules;
+			sourceTree = "<group>";
+		};
+		0A8845D72136959100F921E4 /* BeautifulFilter */ = {
+			isa = PBXGroup;
+			children = (
+				0A8845D82136964B00F921E4 /* LLYGPUImageBeatuifulFilter.h */,
+				0A8845D92136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m */,
+				0A8845DB2136969200F921E4 /* LLYBeautifulFilterViewController.h */,
+				0A8845DC2136969200F921E4 /* LLYBeautifulFilterViewController.m */,
+			);
+			path = BeautifulFilter;
 			sourceTree = "<group>";
 		};
 		422A280016E33E1F0B50F575 /* Pods */ = {
@@ -367,9 +385,11 @@
 			files = (
 				0A7A607C213533FC00869D60 /* main.m in Sources */,
 				0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */,
+				0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */,
 				0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */,
 				0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */,
 				0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */,
+				0A8845DD2136969200F921E4 /* LLYBeautifulFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
