@@ -16,6 +16,8 @@
 		0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A60A22135539600869D60 /* LLYRootViewController.m */; };
 		0A7A60A52135539600869D60 /* LLYRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A32135539600869D60 /* LLYRootViewController.xib */; };
 		0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */; };
+		0A7CEEC92137D63800DFF51F /* LLYTikTokViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CEEC82137D63800DFF51F /* LLYTikTokViewController.m */; };
+		0A7CEECC2137D79300DFF51F /* LLYTikTokFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CEECB2137D79300DFF51F /* LLYTikTokFilter.m */; };
 		0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */; };
 		0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */; };
 		0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D92136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m */; };
@@ -58,6 +60,10 @@
 		0A7A60A22135539600869D60 /* LLYRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYRootViewController.m; sourceTree = "<group>"; };
 		0A7A60A32135539600869D60 /* LLYRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLYRootViewController.xib; sourceTree = "<group>"; };
 		0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LLYLaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7CEEC72137D63800DFF51F /* LLYTikTokViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYTikTokViewController.h; sourceTree = "<group>"; };
+		0A7CEEC82137D63800DFF51F /* LLYTikTokViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYTikTokViewController.m; sourceTree = "<group>"; };
+		0A7CEECA2137D79300DFF51F /* LLYTikTokFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYTikTokFilter.h; sourceTree = "<group>"; };
+		0A7CEECB2137D79300DFF51F /* LLYTikTokFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYTikTokFilter.m; sourceTree = "<group>"; };
 		0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYShowImageViewController.h; sourceTree = "<group>"; };
 		0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYShowImageViewController.m; sourceTree = "<group>"; };
 		0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYUseCameraViewController.h; sourceTree = "<group>"; };
@@ -163,9 +169,21 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
+		0A7CEEC32137D5A400DFF51F /* TikTok */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CEEC72137D63800DFF51F /* LLYTikTokViewController.h */,
+				0A7CEEC82137D63800DFF51F /* LLYTikTokViewController.m */,
+				0A7CEECA2137D79300DFF51F /* LLYTikTokFilter.h */,
+				0A7CEECB2137D79300DFF51F /* LLYTikTokFilter.m */,
+			);
+			path = TikTok;
+			sourceTree = "<group>";
+		};
 		0A8845CF2136782100F921E4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				0A7CEEC32137D5A400DFF51F /* TikTok */,
 				0A8845D72136959100F921E4 /* BeautifulFilter */,
 				0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */,
 				0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */,
@@ -383,7 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7CEECC2137D79300DFF51F /* LLYTikTokFilter.m in Sources */,
 				0A7A607C213533FC00869D60 /* main.m in Sources */,
+				0A7CEEC92137D63800DFF51F /* LLYTikTokViewController.m in Sources */,
 				0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */,
 				0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */,
 				0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */,
