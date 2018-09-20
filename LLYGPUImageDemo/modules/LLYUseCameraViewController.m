@@ -121,6 +121,7 @@
     
 }
 
+//解决不能连续录制视频的bug
 - (void)resetWriter{
     
     [self.mFilter removeTarget:self.movieWriter];
