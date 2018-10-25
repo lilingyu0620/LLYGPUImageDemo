@@ -18,6 +18,8 @@
 		0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A60A62135549D00869D60 /* LLYLaunchScreen.storyboard */; };
 		0A7CEEC92137D63800DFF51F /* LLYTikTokViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CEEC82137D63800DFF51F /* LLYTikTokViewController.m */; };
 		0A7CEECC2137D79300DFF51F /* LLYTikTokFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CEECB2137D79300DFF51F /* LLYTikTokFilter.m */; };
+		0A866A5C2181A78B00402CB0 /* LLYViewWatermarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A866A5B2181A78B00402CB0 /* LLYViewWatermarkViewController.m */; };
+		0A866A5E2181C3C000402CB0 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A866A5D2181C3C000402CB0 /* watermark.png */; };
 		0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */; };
 		0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */; };
 		0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8845D92136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m */; };
@@ -66,6 +68,9 @@
 		0A7CEEC82137D63800DFF51F /* LLYTikTokViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYTikTokViewController.m; sourceTree = "<group>"; };
 		0A7CEECA2137D79300DFF51F /* LLYTikTokFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYTikTokFilter.h; sourceTree = "<group>"; };
 		0A7CEECB2137D79300DFF51F /* LLYTikTokFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYTikTokFilter.m; sourceTree = "<group>"; };
+		0A866A5A2181A78B00402CB0 /* LLYViewWatermarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYViewWatermarkViewController.h; sourceTree = "<group>"; };
+		0A866A5B2181A78B00402CB0 /* LLYViewWatermarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYViewWatermarkViewController.m; sourceTree = "<group>"; };
+		0A866A5D2181C3C000402CB0 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
 		0A8845D0213678DC00F921E4 /* LLYShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYShowImageViewController.h; sourceTree = "<group>"; };
 		0A8845D1213678DC00F921E4 /* LLYShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYShowImageViewController.m; sourceTree = "<group>"; };
 		0A8845D321367CAD00F921E4 /* LLYUseCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYUseCameraViewController.h; sourceTree = "<group>"; };
@@ -169,6 +174,7 @@
 		0A7A609E21354C9700869D60 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				0A866A5D2181C3C000402CB0 /* watermark.png */,
 				0A92A05E2153C49A001EAEF7 /* abc.mp4 */,
 				0A7A609F21354CA600869D60 /* wk.JPG */,
 			);
@@ -197,6 +203,8 @@
 				0A8845D421367CAD00F921E4 /* LLYUseCameraViewController.m */,
 				0A92A05B2153C421001EAEF7 /* LLYMovieWatermarkViewController.h */,
 				0A92A05C2153C421001EAEF7 /* LLYMovieWatermarkViewController.m */,
+				0A866A5A2181A78B00402CB0 /* LLYViewWatermarkViewController.h */,
+				0A866A5B2181A78B00402CB0 /* LLYViewWatermarkViewController.m */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -338,6 +346,7 @@
 				0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */,
 				0A92A05F2153C49A001EAEF7 /* abc.mp4 in Resources */,
 				0A7A60A021354CA600869D60 /* wk.JPG in Resources */,
+				0A866A5E2181C3C000402CB0 /* watermark.png in Resources */,
 				0A7A60A52135539600869D60 /* LLYRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +427,7 @@
 				0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */,
 				0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */,
 				0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */,
+				0A866A5C2181A78B00402CB0 /* LLYViewWatermarkViewController.m in Sources */,
 				0A92A05D2153C421001EAEF7 /* LLYMovieWatermarkViewController.m in Sources */,
 				0A8845DD2136969200F921E4 /* LLYBeautifulFilterViewController.m in Sources */,
 			);
