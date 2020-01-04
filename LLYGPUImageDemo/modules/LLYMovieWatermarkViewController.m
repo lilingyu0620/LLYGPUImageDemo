@@ -32,7 +32,7 @@
     self.filter = [[GPUImageDissolveBlendFilter alloc]init];
     [((GPUImageDissolveBlendFilter *)self.filter) setMix:0.5];
     
-    NSURL *sampleUrl = [[NSBundle mainBundle] URLForResource:@"abc" withExtension:@"mp4"];
+    NSURL *sampleUrl = [[NSBundle mainBundle] URLForResource:@"rosebg" withExtension:@"mp4"];
     self.movieFile = [[GPUImageMovie alloc]initWithURL:sampleUrl];
     self.movieFile.runBenchmark = YES;
     self.movieFile.playAtActualSpeed = YES;

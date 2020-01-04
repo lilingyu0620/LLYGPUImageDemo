@@ -13,6 +13,7 @@
 #import "LLYTikTokViewController.h"
 #import "LLYMovieWatermarkViewController.h"
 #import "LLYViewWatermarkViewController.h"
+#import "LLYVideoBlendViewController.h"
 
 @interface LLYRootViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -34,7 +35,7 @@
     self.mTableView.estimatedRowHeight = 60;
     self.mTableView.rowHeight = UITableViewAutomaticDimension;
     
-    self.dataSourceArray = [NSMutableArray arrayWithArray:@[@"显示带滤镜的图片",@"开启带滤镜的摄像头",@"自定义美颜滤镜",@"自定义抖音滤镜",@"视频水印",@"文字图片水印"]];
+    self.dataSourceArray = [NSMutableArray arrayWithArray:@[@"显示带滤镜的图片",@"开启带滤镜的摄像头",@"自定义美颜滤镜",@"自定义抖音滤镜",@"视频水印",@"文字图片水印",@"视频叠加"]];
     [self.mTableView reloadData];
 }
 
@@ -94,6 +95,12 @@
             
         case 5:{
             LLYViewWatermarkViewController *vc = [[LLYViewWatermarkViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        case 6:{
+            LLYVideoBlendViewController *vc = [[LLYVideoBlendViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

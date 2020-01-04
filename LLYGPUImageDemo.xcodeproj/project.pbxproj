@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A40B53423BA038100D0B973 /* rose.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A40B53223BA038000D0B973 /* rose.mp4 */; };
+		0A40B53523BA038100D0B973 /* rosebg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A40B53323BA038000D0B973 /* rosebg.mp4 */; };
+		0A40B53823BA045C00D0B973 /* LLYVideoBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A40B53723BA045C00D0B973 /* LLYVideoBlendViewController.m */; };
+		0A4FD38E23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FD38D23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.m */; };
+		0A4FD39423BB60F8002BED3E /* rosetest1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FD39323BB60F8002BED3E /* rosetest1.mp4 */; };
 		0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A606D213533FB00869D60 /* AppDelegate.m */; };
 		0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A6075213533FC00869D60 /* Assets.xcassets */; };
 		0A7A607C213533FC00869D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A607B213533FC00869D60 /* main.m */; };
@@ -47,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A40B53223BA038000D0B973 /* rose.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rose.mp4; sourceTree = "<group>"; };
+		0A40B53323BA038000D0B973 /* rosebg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rosebg.mp4; sourceTree = "<group>"; };
+		0A40B53623BA045C00D0B973 /* LLYVideoBlendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYVideoBlendViewController.h; sourceTree = "<group>"; };
+		0A40B53723BA045C00D0B973 /* LLYVideoBlendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYVideoBlendViewController.m; sourceTree = "<group>"; };
+		0A4FD38C23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLYGPUImageVideoAlphaFilter.h; sourceTree = "<group>"; };
+		0A4FD38D23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYGPUImageVideoAlphaFilter.m; sourceTree = "<group>"; };
+		0A4FD39323BB60F8002BED3E /* rosetest1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rosetest1.mp4; sourceTree = "<group>"; };
 		0A7A6069213533FB00869D60 /* LLYGPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYGPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7A606C213533FB00869D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7A606D213533FB00869D60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +186,9 @@
 		0A7A609E21354C9700869D60 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				0A4FD39323BB60F8002BED3E /* rosetest1.mp4 */,
+				0A40B53223BA038000D0B973 /* rose.mp4 */,
+				0A40B53323BA038000D0B973 /* rosebg.mp4 */,
 				0A866A5D2181C3C000402CB0 /* watermark.png */,
 				0A92A05E2153C49A001EAEF7 /* abc.mp4 */,
 				0A7A609F21354CA600869D60 /* wk.JPG */,
@@ -205,6 +220,10 @@
 				0A92A05C2153C421001EAEF7 /* LLYMovieWatermarkViewController.m */,
 				0A866A5A2181A78B00402CB0 /* LLYViewWatermarkViewController.h */,
 				0A866A5B2181A78B00402CB0 /* LLYViewWatermarkViewController.m */,
+				0A40B53623BA045C00D0B973 /* LLYVideoBlendViewController.h */,
+				0A40B53723BA045C00D0B973 /* LLYVideoBlendViewController.m */,
+				0A4FD38C23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.h */,
+				0A4FD38D23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.m */,
 			);
 			path = modules;
 			sourceTree = "<group>";
@@ -343,11 +362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7A6076213533FC00869D60 /* Assets.xcassets in Resources */,
+				0A4FD39423BB60F8002BED3E /* rosetest1.mp4 in Resources */,
 				0A7A60A72135549D00869D60 /* LLYLaunchScreen.storyboard in Resources */,
 				0A92A05F2153C49A001EAEF7 /* abc.mp4 in Resources */,
+				0A40B53523BA038100D0B973 /* rosebg.mp4 in Resources */,
 				0A7A60A021354CA600869D60 /* wk.JPG in Resources */,
 				0A866A5E2181C3C000402CB0 /* watermark.png in Resources */,
 				0A7A60A52135539600869D60 /* LLYRootViewController.xib in Resources */,
+				0A40B53423BA038100D0B973 /* rose.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +446,11 @@
 				0A7CEEC92137D63800DFF51F /* LLYTikTokViewController.m in Sources */,
 				0A7A606E213533FB00869D60 /* AppDelegate.m in Sources */,
 				0A8845DA2136964B00F921E4 /* LLYGPUImageBeatuifulFilter.m in Sources */,
+				0A4FD38E23BB34FE002BED3E /* LLYGPUImageVideoAlphaFilter.m in Sources */,
 				0A7A60A42135539600869D60 /* LLYRootViewController.m in Sources */,
 				0A8845D521367CAD00F921E4 /* LLYUseCameraViewController.m in Sources */,
 				0A8845D2213678DC00F921E4 /* LLYShowImageViewController.m in Sources */,
+				0A40B53823BA045C00D0B973 /* LLYVideoBlendViewController.m in Sources */,
 				0A866A5C2181A78B00402CB0 /* LLYViewWatermarkViewController.m in Sources */,
 				0A92A05D2153C421001EAEF7 /* LLYMovieWatermarkViewController.m in Sources */,
 				0A8845DD2136969200F921E4 /* LLYBeautifulFilterViewController.m in Sources */,
