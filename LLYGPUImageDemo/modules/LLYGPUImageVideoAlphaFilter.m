@@ -66,4 +66,12 @@ NSString *const kGPUImageVideoAlphaShaderString = SHADER_STRING
     glDisable(GL_BLEND);
 }
 
+- (void)setInputSize:(CGSize)newSize atIndex:(NSInteger)textureIndex {
+    
+    inputTextureSize = CGSizeMake(450, 974);
+    
+    [super setInputSize:inputTextureSize atIndex:textureIndex];
+    
+}
+
 @end

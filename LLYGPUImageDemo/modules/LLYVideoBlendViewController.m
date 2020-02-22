@@ -10,6 +10,14 @@
 #import "GPUImage.h"
 #import "LLYGPUImageVideoAlphaFilter.h"
 
+extern CGFloat PLScreenLongerLength(void) {
+    return MAX(CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds));
+}
+
+extern CGFloat PLScreenShorterLength(void) {
+    return MIN(CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds));
+}
+
 @interface LLYVideoBlendViewController ()<GPUImageMovieDelegate>
 
 @property (nonatomic, strong) UIImageView *imageView;
@@ -22,6 +30,13 @@
 
 @implementation LLYVideoBlendViewController
 
+- (CGRect)giftPlayerFrame {
+    CGFloat playerRatio = 974.0 / 450.0;//视频长宽比
+    CGFloat playerHeight = ceilf(playerRatio * PLScreenShorterLength());
+    CGFloat topMargin = PLScreenLongerLength() - playerHeight;
+    return CGRectMake(0, topMargin, PLScreenShorterLength(),playerHeight);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -30,8 +45,7 @@
     self.imageView.image = [UIImage imageNamed:@"wk.JPG"];
     [self.view addSubview:self.imageView];
     
-    self.filterView = [[GPUImageView alloc] initWithFrame:self.view.bounds];
-    self.filterView.center = self.view.center;
+    self.filterView = [[GPUImageView alloc] initWithFrame:[self giftPlayerFrame]];
     self.filterView.contentMode = UIViewContentModeScaleAspectFill;
     self.filterView.fillMode = kGPUImageFillModeStretch;
     self.filterView.backgroundColor = [UIColor clearColor];
